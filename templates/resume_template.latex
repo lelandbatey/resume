@@ -109,11 +109,13 @@ $if(strikeout)$
 \pdfstringdefDisableCommands{\renewcommand{\sout}{}}
 $endif$
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt plus 2pt minus 1pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parskip}{0pt}
 \setlength{\emergencystretch}{3em}  % prevent overfull lines
 
 \usepackage{multicol}
 \usepackage{titlesec}
+\usepackage{enumitem}
 
 $if(numbersections)$
 \setcounter{secnumdepth}{5}
@@ -151,7 +153,21 @@ $endfor$
 % Disable page numbers
 \pagenumbering{gobble}
 % Increase the width of the central column seperator
-\setlength\columnsep{50pt}
+\setlength\columnsep{40pt}
+
+% Increase the font size of sections
+\titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
+\titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
+
+\titlespacing*{\section}{0pt}{10pt}{0pt}
+\titlespacing*{\label}{0pt}{10pt}{10pt}
+\titlespacing*{\subsection}{0pt}{15pt}{10pt}
+\titlespacing*{\subsubsection}{0pt}{15pt}{5pt}
+\titlespacing*{\itemize}{0pt}{0pt}{0pt}
+\titlespacing*{\paragraph}{0pt}{0pt}{0pt}
+
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
 
 \begin{document}
 $if(title)$
@@ -174,17 +190,6 @@ $if(toc)$
 \tableofcontents
 }
 $endif$
-
-
-% Increase the font size of sections
-\titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
-\titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
-\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
-\titlespacing*{\section}{0pt}{10pt}{0pt}
-\titlespacing*{\label}{0pt}{0pt}{0pt}
-\titlespacing*{\subsection}{0pt}{10pt}{0pt}
-\titlespacing*{\subsubsection}{0pt}{10pt}{0pt}
-\titlespacing*{\paragraph}{0pt}{0pt}{0pt}
 
 
 \begin{multicols}{2}

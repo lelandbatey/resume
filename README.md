@@ -14,6 +14,7 @@ This workflow assumes it is on the Linux platform. Additionally, this workflow r
 - `texlive`
 - The `titlesec` Tex package: `tlmgr install titlesec`
 - The `multicol` Tex package
+- The `enumitem` Tex package
 
 ## Building
 
