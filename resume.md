@@ -39,13 +39,6 @@ lelandbatey@lelandbatey.com
 
 ## Work Experience
 
-### Mobile App Developer Internship
-**Sandyclock, Inc**, *Richland, WA*  
-May 2015 - October 2015  
-
-- Developed mobile applications as part of an unreleased enterprise task management solution
-- Mobile apps developed cross platform for Android and iOS using Ember.js and Cordova
-
 ### Web Developer Internship
 **Pacific Northwest National Laboratory**, *Richland, WA*  
 May 2014 - September 2014  
@@ -71,6 +64,4 @@ November 2011 - August 2012
 ## Education
 - Computer Science Bachelor's Degree, Washington State University Tri-Cities
     - Graduating autumn 2017
-- High School Diploma, Emerson High School, Kirkland WA
-    - Graduated class of 2012
 
