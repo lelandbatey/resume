@@ -148,6 +148,11 @@ $for(header-includes)$
 $header-includes$
 $endfor$
 
+% Disable page numbers
+\pagenumbering{gobble}
+% Increase the width of the central column seperator
+\setlength\columnsep{50pt}
+
 \begin{document}
 $if(title)$
 \maketitle
@@ -170,7 +175,6 @@ $if(toc)$
 }
 $endif$
 
-\setlength\columnsep{30pt}
 
 % Increase the font size of sections
 \titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}

@@ -2,7 +2,7 @@
 SRC=resume.md
 BUILD_DIR=build/
 
-all: pdf html
+all: builddir pdf html
 
 latex:
 	pandoc --template templates/resume_template.latex --variable geometry="margin=0.5in" -o $(BUILD_DIR)resume.latex $(SRC)
@@ -12,3 +12,6 @@ pdf: latex
 
 html:
 	pandoc -o $(BUILD_DIR)resume.html $(SRC)
+
+builddir:
+	@mkdir -p $(BUILD_DIR)
