@@ -1,23 +1,23 @@
 
 # Leland Batey
 lelandbatey@lelandbatey.com  
-(425).802.2297  
+(425).522.2839  
 [http://github.com/lelandbatey](http://github.com/lelandbatey)
 
 ## Skills
-- Languages: C, C++, Python, Javascript, C#, Rust, HTML, CSS
-- Software Development: Test driven development, mobile apps, continuous delivery, revision control
-- Tooling: Linux, Git, GCC, Clang, node, Emscripten, Visual Studio, Xcode7 
+- Languages: Go, Python, C, C++, Javascript, C#, Rust, HTML, CSS
+- Software Development: Test driven development, distributed systems, continuous delivery, revision control
+- Tooling: Linux, Git, Go, GCC, Clang, node, Emscripten, Visual Studio, Xcode7
 - OS Experience: Linux, Windows, OS X
 - Team: Agile, goal tracking, responsive management, organizer
 
 ## Public Work
 
-### whereis.lelandbatey.com, [Github link](https://github.com/lelandbatey/whereIAm/) 
+### whereis.lelandbatey.com, [Github link](https://github.com/lelandbatey/whereIAm/)
 - *Python*
-- Implemented a site to publicly display the location of Leland Batey, updated in real time, as well as tools for GPS data analysis and visualization
+- Implemented a site to publicly display the location of Leland Batey, updated in real time, as well as tools for GPS data analysis and visualization.
 
-### GifMachine, [Github link](https://github.com/lelandbatey/gif-machine) 
+### GifMachine, [Github link](https://github.com/lelandbatey/gif-machine)
 - *Python*
 - Web service for creating animated .gifs from YouTube videos. Video and image processing delegated to `ffmpeg` and `ImageMagick`, respectively.
 - From 2013 to 2015, created 120,000+ animated gifs, and served those gifs millions of times.
@@ -38,6 +38,13 @@ lelandbatey@lelandbatey.com
 </div>
 
 ## Work Experience
+
+### Software Developer Engineer
+**Tune, Inc**, *Seattle, WA*  
+May 2016 - Present
+
+- Software developer building distributed tools and systems for Multiverse.com, an ad-spend analytics platform
+- Co-author of [`go-truss`](https://github.com/TuneLab/go-truss/) a development tool for fast iteration of Go based service oriented architectures
 
 ### Web Developer Internship
 **Pacific Northwest National Laboratory**, *Richland, WA*  
@@ -62,6 +69,6 @@ November 2011 - August 2012
 - Organizer of CodeDay August 2012, involving marketing, acquiring sponsors, and arranging for speakers and mentors. Attended by over 100 students from the Seattle area.
 
 ## Education
-- Computer Science Bachelor's Degree, Washington State University Tri-Cities
+- Computer Science Bachelor's Degree, Washington State University
     - Graduating autumn 2017
 

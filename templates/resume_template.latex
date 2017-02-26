@@ -116,6 +116,8 @@ $endif$
 \usepackage{multicol}
 \usepackage{titlesec}
 \usepackage{enumitem}
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 $if(numbersections)$
 \setcounter{secnumdepth}{5}
