@@ -14,23 +14,23 @@ lelandbatey@lelandbatey.com
 ## Public Work
 
 ### whereis.lelandbatey.com, [Github link](https://github.com/lelandbatey/whereIAm/)
-- *Python*
+- *Python (Python 3)*
 - Implemented a site to publicly display the location of Leland Batey, updated in real time, as well as tools for GPS data analysis and visualization.
 
 ### GifMachine, [Github link](https://github.com/lelandbatey/gif-machine)
-- *Python*
+- *Python (Python 2)*
 - Web service for creating animated .gifs from YouTube videos. Video and image processing delegated to `ffmpeg` and `ImageMagick`, respectively.
 - From 2013 to 2015, created 120,000+ animated gifs, and served those gifs millions of times.
 - No longer operating as a public site, though the code is still public.
 
-### Bouncing Blocks, [Github link](https://github.com/lelandbatey/bouncing_block/tree/master/c)
-- *C, Javascript*
-- Implemented a toy C program to display bouncing particles in the terminal. Carefully audited for memory safety and optimized for maximal memory efficiency, runs 2x as fast as a naive C implementation, and 50x as fast as a dynamic implementation in a language like Python.
-- Built with a portable core, it's compatible with Javascript through Emscripten and viewable in browser. [Demo here.](http://lelandbatey.com/projects/bouncing_blocks/)
-
 ### Card-raytracer-rust, [Github link](https://github.com/lelandbatey/card-raytracer-rust)
 - *Rust*
 - A reimplementation of the famous "Raytracer that fits on a business card", written in Rust.
+
+### DefuseDivision, [Github link](https://github.com/lelandbatey/defuse_division)
+- *Python (Python 3)*
+- A real-time competitive multiplayer implementation of the game Minesweeper that you can play in your terminal.
+- Features local single-player, as well as local-network and internet multiplayer time attack modes for minesweeper.
 
 <div style="display: none">
 \vfill
@@ -41,10 +41,10 @@ lelandbatey@lelandbatey.com
 
 ### Software Developer Engineer
 **Tune, Inc**, *Seattle, WA*  
-May 2016 - Present
+May 2016 - September 2017
 
 - Software developer building distributed tools and systems for Multiverse.com, an ad-spend analytics platform
-- Co-author of [`go-truss`](https://github.com/TuneLab/go-truss/) a development tool for fast iteration of Go based service oriented architectures
+- Co-author of [`truss`](https://github.com/tuneinc/truss) a development tool for fast iteration of Go based service oriented architectures
 
 ### Web Developer Internship
 **Pacific Northwest National Laboratory**, *Richland, WA*  
@@ -70,5 +70,5 @@ November 2011 - August 2012
 
 ## Education
 - Computer Science Bachelor's Degree, Washington State University
-    - Graduating autumn 2017
+    - Graduated Spring of 2018
 
