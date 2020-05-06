@@ -13,9 +13,11 @@ lelandbatey@lelandbatey.com
 
 ## Public Work
 
-### whereis.lelandbatey.com, [Github link](https://github.com/lelandbatey/whereIAm/)
-- *Python (Python 3)*
-- Implemented a site to publicly display the location of Leland Batey, updated in real time, as well as tools for GPS data analysis and visualization.
+### OneRing, [Github link](https://github.com/wsu-onering/onering/tree/master/OneRing)
+- *C#, ASP.NET Core 2.0*
+- A custom dashboard for managers to track activity across projects. Analogous to the old iGoogle software or the current Azure dashboard.
+- Built 100% on Microsoft technologies to allow integration across all Pacific Northwest National Laboratory systems. Features Active Directory authentication and management through the Microsoft Graph.
+- My senior project at WSU for my Computer Science degree.
 
 ### GifMachine, [Github link](https://github.com/lelandbatey/gif-machine)
 - *Python (Python 2)*
